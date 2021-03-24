@@ -77,6 +77,7 @@ function getCypressExecutable() {
 }
 
 try {
+  console.log("Trying");
   if (featuresToRun.length || envTags === "") {
     execFileSync(
       getCypressExecutable(),
@@ -86,7 +87,7 @@ try {
       }
     );
   } else {
-    console.log("No matching tags found");
+    console.log("Hello : No matching tags found");
     process.exit(0);
   }
 } catch (e) {

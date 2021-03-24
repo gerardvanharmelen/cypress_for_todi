@@ -1,1 +1,7 @@
-{}
+
+  {
+    "testFiles": "**/*.feature",
+    "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+    "viewportWidth": 1800,
+    "viewportHeight": 1000
+  }
